@@ -1,0 +1,423 @@
+/* @group fonts */
+@font-face {
+    font-family: 'ArvoBoldRegular';
+    src: url('/fonts/arvo-bold-webfont.eot');
+    src: url('/fonts/arvo-bold-webfont.eot?iefix') format('eot'),
+         url('/fonts/arvo-bold-webfont.woff') format('woff'),
+         url('/fonts/arvo-bold-webfont.ttf') format('truetype'),
+         url('/fonts/arvo-bold-webfont.svg#webfontRVFArTrz') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'ArvoBoldItalic';
+    src: url('/fonts/arvo-bolditalic-webfont.eot');
+    src: url('/fonts/arvo-bolditalic-webfont.eot?iefix') format('eot'),
+         url('/fonts/arvo-bolditalic-webfont.woff') format('woff'),
+         url('/fonts/arvo-bolditalic-webfont.ttf') format('truetype'),
+         url('/fonts/arvo-bolditalic-webfont.svg#webfont3DVRIX18') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'ArvoItalic';
+    src: url('/fonts/arvo-italic-webfont.eot');
+    src: url('/fonts/arvo-italic-webfont.eot?iefix') format('eot'),
+         url('/fonts/arvo-italic-webfont.woff') format('woff'),
+         url('/fonts/arvo-italic-webfont.ttf') format('truetype'),
+         url('/fonts/arvo-italic-webfont.svg#webfontCl4HytEc') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'ArvoRegular';
+    src: url('/fonts/arvo-regular-webfont.eot');
+    src: url('/fonts/arvo-regular-webfont.eot?iefix') format('eot'),
+         url('/fonts/arvo-regular-webfont.woff') format('woff'),
+         url('/fonts/arvo-regular-webfont.ttf') format('truetype'),
+         url('/fonts/arvo-regular-webfont.svg#webfontSeI7MOZ2') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'HenryMorganHandRegular';
+    src: url('/fonts/HenryMorganHand-webfont.eot');
+    src: url('/fonts/HenryMorganHand-webfont.eot?iefix') format('eot'),
+         url('/fonts/HenryMorganHand-webfont.woff') format('woff'),
+         url('/fonts/HenryMorganHand-webfont.ttf') format('truetype'),
+         url('/fonts/HenryMorganHand-webfont.svg#webfonthAKxBK9o') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+/* @end */
+
+/* @group animations */
+@-webkit-keyframes fly {
+  0% {
+    right: 305px;
+    top: 169px;
+    -moz-transform: scale(0.7);
+    -webkit-transform: scale(0.7);
+    transform: scale(0.7);
+  }
+  100% {
+    right: -227px;
+    top: -20px;
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+}
+/* @end */
+
+/* @group reset */
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, code, del, dfn, em, img, q, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td 
+{ border: 0; font-family: inherit; font-size: 100%; list-style: none; margin: 0; padding: 0; vertical-align: baseline; }
+a img, frameset { border: 0; }
+table { border-collapse: collapse; border-spacing: 0; }
+caption, th, td { font-weight: normal; text-align: left; }
+blockquote:before, blockquote:after, q:before, q:after { content: ""; }
+blockquote, q { quotes: "" ""; }
+/* @end */
+
+/* @group utility */
+.clearing { clear: both; }
+.contain:after,
+.group:after {
+  clear: both;
+  content: ".";
+  display: block;
+  height: 0;
+  visibility: hidden;
+}
+.screen-reader {
+  display: block;
+  left: -9999px;
+  position: absolute;
+  top: -9999px;
+}
+.alt {
+  display: block;
+  overflow: hidden;
+  text-indent: -9999px;
+}
+.hide { display: none; }
+.left { float: left; }
+.right { float: right; }
+/* @end */
+
+/* @group basic elements */
+body {
+  background: #27211c url(/images/structure/bg-body.jpg) repeat 50% 0;
+  color: #432c03;
+  font: 13px/16px ArvoRegular, Georgia, Times, serif;
+}
+h1,
+h2,
+h3 {
+  font-weight: normal;
+}
+p {
+  margin-bottom: 20px;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  
+}
+/* @end */
+
+/* @group basic structure */
+#container {
+  background: url(/images/structure/bg-container.jpg) repeat 50% 0;
+  -moz-box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.75);
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.75);
+  margin: 0 auto;
+  padding: 27px 60px 55px;
+  width: 820px;
+}
+/* @end */
+
+/* @group header */
+header {
+  background: url(/images/structure/bg-header.png) no-repeat 18px 0;
+  height: 222px;
+  margin-bottom: 10px;
+  position: relative;
+}
+header h2 {
+  bottom: 6px;
+  font: 36px/36px HenryMorganHandRegular, cursive;
+  position: absolute;
+  right: 40px;
+  word-spacing: 5px;
+}
+/* @end */
+
+/* @group primary row */
+  .primary {
+    margin-bottom: 46px;
+  }
+  
+  /* @group -main column */
+  .primary .main {
+    width: 480px;
+  }
+  .primary .main h2 {
+    border-bottom: 1px solid #a79a84;
+    color: #c60000;
+    font: 36px/36px ArvoBoldRegular, Georgia, Times, serif;
+    padding-bottom: 4px;
+    text-transform: uppercase;
+  }
+  .primary .main p {
+    border-top: 1px solid #e6d8ba;
+    font-family: ArvoBoldRegular, Georgia, Times, serif;
+    line-height: 18px;
+    margin-bottom: 12px;
+    padding-top: 6px;
+  }
+  /* @end */
+  
+  /* @group -aside column */
+  .primary .aside {
+    width: 320px;
+  }
+  .primary .aside h2 {
+    background: url(/images/structure/hdr-read-past.png);
+    color: #fff;
+    height: 43px;
+    font-size: 15px;
+    line-height: 18px;
+    margin: 0 auto;
+    padding-top: 8px;
+    text-align: center;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.37);
+    text-transform: uppercase;
+    width: 179px;
+  }
+  .primary .aside h2 span {
+    display: block;
+    font-size: 20px;
+  }
+  .primary .aside ul {
+    border: 1px solid #ddc8a6;
+  }
+  .primary .aside li {
+    border-bottom: 1px solid #d2bc9e;
+    border-top: 1px solid #e0cdaf;
+  }
+  .primary .aside li:first-child {
+    border-top: none;
+  }
+  .primary .aside li:last-child {
+    border-bottom: none;
+  }
+  .primary .aside a {
+    background: #b59b7a;
+    color: #432c03;
+    display: block;
+    line-height: 15px;
+    outline: none;
+    padding: 20px;
+    position: relative;
+    -moz-transition: all .25s ease-in-out;
+    -webkit-transition: all .25s ease-in-out;
+    transition: all .25s ease-in-out
+  }
+  .primary .aside h3 {
+    color: #231600;
+    font-size: 15px;
+    margin-bottom: 2px;
+    text-transform: uppercase;
+  }
+  .primary .aside a:hover,
+  .primary .aside a:focus,
+  .primary .aside a:active {
+    background: #dfccaf;
+    -moz-box-shadow: 1px 1px 0 #5a4434,
+                2px 2px 0 #5a4434,
+                3px 3px 0 #5a4434,
+                4px 4px 0 #5a4434,
+                5px 5px 0 #5a4434,
+                6px 6px 0 #5a4434,
+                7px 7px 0 #5a4434,
+                8px 8px 0 #5a4434,
+                9px 9px 0 #5a4434;
+    -webkit-box-shadow: 1px 1px 0 #5a4434,
+                2px 2px 0 #5a4434,
+                3px 3px 0 #5a4434,
+                4px 4px 0 #5a4434,
+                5px 5px 0 #5a4434,
+                6px 6px 0 #5a4434,
+                7px 7px 0 #5a4434,
+                8px 8px 0 #5a4434,
+                9px 9px 0 #5a4434;
+    box-shadow: 1px 1px 0 #5a4434,
+                2px 2px 0 #5a4434,
+                3px 3px 0 #5a4434,
+                4px 4px 0 #5a4434,
+                5px 5px 0 #5a4434,
+                6px 6px 0 #5a4434,
+                7px 7px 0 #5a4434,
+                8px 8px 0 #5a4434,
+                9px 9px 0 #5a4434;
+    left: -9px;
+    top: -9px;
+  }
+  /* @end */
+
+/* @end */
+
+/* @group quidditch */
+.quidditch {
+  background: #d29911 url(/images/structure/bg-clouds.jpg) no-repeat;
+  -moz-border-radius: 13px;
+  -webkit-border-radius: 13px;
+  border-radius: 13px;
+  height: 153px;
+  margin-bottom: 30px;
+  overflow: hidden;
+  padding: 16px 0 0 20px;
+  position: relative;
+}
+.quidditch h2 {
+  color: #442c03;
+  font: 28px/28px ArvoBoldItalic, Georgia, Times, serif;
+  margin-bottom: 12px;
+}
+.quidditch p {
+  font-size: 14px;
+  line-height: 18px;
+  margin-bottom: 0;
+  width: 440px;
+}
+.quidditch .sig {
+  display: inline-block;
+  font: 48px/48px HenryMorganHandRegular, cursive;
+  left: 24px;
+  position: relative;
+  top: -15px;
+}
+.quidditch .flyer {
+  -webkit-animation: fly 4.5s infinite linear;
+  background: url(/images/structure/flyer.png);
+  display: block;
+  height: 135px;
+  position: absolute;
+  width: 177px;
+}
+/* @end */
+
+/* @group tertiary row */
+.tertiary section {
+  width: 240px;
+}
+.tertiary section:first-child,
+.tertiary section:last-child {
+  background: #eddab7;
+  -moz-box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.33);
+  -webkit-box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.33);
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.33);
+  -moz-transition: all .25s ease-in-out;
+  -webkit-transition: all .25s ease-in-out;
+  transition: all .25s ease-in-out
+}
+.tertiary section:first-child:hover {
+  -webkit-transform: scale(1.1) rotate(-3deg);
+}
+.tertiary section:last-child:hover {
+  -webkit-transform: scale(1.1) rotate(3deg);
+}
+.tertiary section a {
+  color: #432c03;
+  display: block;
+  height: 258px;
+  padding: 15px 22px;
+  width: 196px;
+}
+.tertiary section img {
+  display: block;
+  margin: 0 auto;
+}
+
+  /* @group -first */
+  .tertiary section:first-child {
+    background: -moz-linear-gradient(top, #eddab7 0%, #f8f0e1 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#eddab7), color-stop(100%,#f8f0e1));
+    color: #432c03;
+    margin-right: 0;
+  }
+  .tertiary section:first-child h2 {
+    color: #c90e0c;
+    font: 16px/17px ArvoBoldItalic, Georgia, Times, serif;
+    margin-bottom: 8px;
+    text-align: center;
+  }
+  .tertiary section:first-child h2 span {
+    display: block;
+  }
+  .tertiary section:first-child p {
+    margin-bottom: 8px;
+  }
+  /* @end */
+  
+  /* @group -second */
+  .tertiary section:nth-child(2) {
+    height: 192px;
+    font-size: 16px;
+    line-height: 20px;
+    padding: 96px 20px 0 20px;
+    position: relative;
+    text-align: center;
+    width: 300px;
+  }
+  .tertiary section:nth-child(2) p {
+    position: relative;
+    z-index: 10;
+  }
+  .tertiary section:nth-child(2) .da {
+    background: url(/images/structure/da.png);
+    display: block;
+    height: 296px;
+    left: 50%;
+    margin-left: -121px;
+    opacity: 0.05;
+    position: absolute;
+    top: 0;
+    width: 242px;
+    z-index: 1;
+  }
+  .tertiary section:nth-child(2) p,
+  .tertiary section:nth-child(2) .da {
+    -moz-transition: all .25s ease-in-out;
+    -webkit-transition: all .25s ease-in-out;
+    transition: all .25s ease-in-out;
+  }
+  .tertiary section:nth-child(2):hover p {
+    opacity: 0.3;
+  }
+  .tertiary section:nth-child(2):hover .da {
+    opacity: 1.0;
+  }
+  /* @end */
+  
+  /* @group -third */
+  .tertiary section:last-child {
+    background: -moz-linear-gradient(top, #f8f0e1 0%, #eddab7 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f8f0e1), color-stop(100%,#eddab7));
+  }
+  .tertiary section:last-child h2 {
+    color: #d6a123;
+    font: 26px/26px ArvoBoldItalic, Georgia, Times, serif;
+    text-align: center;
+    text-shadow: 0 1px 1px #4c1c0b;
+    text-transform: lowercase;
+  }
+  .tertiary section:last-child img {
+    margin: 12px auto;
+  }
+  /* @end */
+/* @end */
