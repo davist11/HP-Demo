@@ -21,7 +21,12 @@
           <h2>Gryffindor Pummels Slytherin, 300 to 80!</h2>
           <p>Lee Jordan reporting, folks! Last week&rsquo;s quidditch match was a bloodbath. Thanks to the deft moves of the Gryffindor team, Slytherin wasn&rsquo;t just beaten, they were destroyed. Check out the action yourself:</p>
           
-          <iframe title="YouTube video player" width="480" height="293" src="http://www.youtube.com/embed/YJvEzIrt_u8" frameborder="0" allowfullscreen></iframe>
+          <video width="480" height="272" controls>
+            <source src="/videos/hp.mp4"  type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
+            <source src="/videos/hp.webm" type='video/webm; codecs="vp8, vorbis"'>
+            <source src="/videos/hp.ogg"  type='video/ogg; codecs="theora, vorbis"'>
+            <!-- FLASH VIDEO HERE -->
+          </video>
         </section>
         
         <section class="aside right">
@@ -89,7 +94,5 @@
       </div>
     
     </div>
-    <script src="/scripts/jquery.js"></script>
-    <script src="/scripts/global.js"></script>
   </body>
 </html>
