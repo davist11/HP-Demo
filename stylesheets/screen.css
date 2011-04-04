@@ -130,7 +130,7 @@ a:hover {
 
 /* @group basic structure */
 #container {
-  background: url(/images/structure/bg-container.jpg) repeat 50% 0;
+  background: #f4ddc2 url(/images/structure/bg-container.jpg) repeat 50% 0;
   -moz-box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.75);
   -webkit-box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.75);
   box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.75);
@@ -302,7 +302,9 @@ header h2 {
   top: -15px;
 }
 .quidditch .flyer {
+  -moz-animation: fly 4.5s infinite linear;
   -webkit-animation: fly 4.5s infinite linear;
+  animation: fly 4.5s infinite linear;
   background: url(/images/structure/flyer.png);
   display: block;
   height: 135px;
@@ -323,13 +325,17 @@ header h2 {
   box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.33);
   -moz-transition: all .25s ease-in-out;
   -webkit-transition: all .25s ease-in-out;
-  transition: all .25s ease-in-out
+  transition: all .25s ease-in-out;
 }
 .tertiary section:first-child:hover {
+  -moz-transform: scale(1.1) rotate(-3deg);
   -webkit-transform: scale(1.1) rotate(-3deg);
+  transform: scale(1.1) rotate(-3deg);
 }
 .tertiary section:last-child:hover {
+  -moz-transform: scale(1.1) rotate(3deg);
   -webkit-transform: scale(1.1) rotate(3deg);
+  transform: scale(1.1) rotate(3deg);
 }
 .tertiary section a {
   color: #432c03;
