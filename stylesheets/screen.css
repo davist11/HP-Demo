@@ -60,12 +60,19 @@
     -webkit-transform: scale(0.7);
     transform: scale(0.7);
   }
-  100% {
-    right: -227px;
+  50% {
+    right: -247px;
     top: -20px;
     -moz-transform: scale(1.1);
     -webkit-transform: scale(1.1);
     transform: scale(1.1);
+  }
+  100% {
+    -moz-transform: rotate(-180deg);
+    -webkit-transform: rotate(-180deg);
+    transform: rotate(-180deg);
+    right: 305px;
+    top: 169px;
   }
 }
 /* @end */
@@ -302,9 +309,9 @@ header h2 {
   top: -15px;
 }
 .quidditch .flyer {
-  -moz-animation: fly 4.5s infinite linear;
-  -webkit-animation: fly 4.5s infinite linear;
-  animation: fly 4.5s infinite linear;
+  -moz-animation: fly 12s infinite linear;
+  -webkit-animation: fly 12s infinite linear;
+  animation: fly 12s infinite linear;
   background: url(/images/structure/flyer.png);
   display: block;
   height: 135px;
