@@ -34,3 +34,5 @@
 
 -gradients: craziness
 http://css-tricks.com/css3-gradients/
+-moz-linear-gradient([<point> || <angle>,]? <stop>, <stop> [, <stop>])
+-webkit-linear-gradient([<point> || <angle>,]? <stop>, <stop> [, <stop>]);

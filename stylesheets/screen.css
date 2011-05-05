@@ -232,7 +232,7 @@ header h2 {
     position: relative;
     -moz-transition: all .25s ease-in-out;
     -webkit-transition: all .25s ease-in-out;
-    transition: all .25s ease-in-out
+    transition: all .25s ease-in-out;
   }
   .primary .aside h3 {
     color: #231600;
@@ -358,6 +358,7 @@ header h2 {
 
   /* @group -first */
   .tertiary section:first-child {
+    background: #f8f0e1;
     background: -moz-linear-gradient(top, #eddab7 0%, #f8f0e1 100%);
     background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#eddab7), color-stop(100%,#f8f0e1));
     color: #432c03;
@@ -419,6 +420,7 @@ header h2 {
   
   /* @group -third */
   .tertiary section:last-child {
+    background: #f8f0e1;
     background: -moz-linear-gradient(top, #f8f0e1 0%, #eddab7 100%);
     background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f8f0e1), color-stop(100%,#eddab7));
   }
