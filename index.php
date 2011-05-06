@@ -68,7 +68,7 @@
       </section>
       
       <div class="group tertiary">
-        <section class="left">
+        <section>
           <a href="#">
             <h2>Slightly Used <span>Cauldron For Sale</span></h2>
             <p>Only has one crack in it! Selling for 2 Galleons. Please contact Neville Longbottom.</p>
@@ -76,7 +76,7 @@
           </a>
         </section>
         
-        <section class="left">
+        <section>
           <p>Looking to get some proper training? 
           Have some free weeknights?</p>
 
@@ -84,7 +84,7 @@
           <span class="alt da">DA</span>
         </section>
         
-        <section class="right">
+        <section>
           <a href="#">
             <h2>Lost and Found</h2>
             <img src="/images/content/ink.png" alt="Green ink" height="133" width="121" />

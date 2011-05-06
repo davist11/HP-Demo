@@ -36,3 +36,10 @@
 http://css-tricks.com/css3-gradients/
 -moz-linear-gradient([<point> || <angle>,]? <stop>, <stop> [, <stop>])
 -webkit-linear-gradient([<point> || <angle>,]? <stop>, <stop> [, <stop>]);
+
+http://css3exp.com/moon/
+http://dowebsitesneedtobeexperiencedexactlythesameineverybrowser.com/
+http://diveintohtml5.org/video.html
+http://westciv.com/tools/transforms/
+http://matthewlein.com/ceaser/
+http://colorzilla.com/gradient-editor/

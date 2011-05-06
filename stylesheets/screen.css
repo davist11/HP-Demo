@@ -71,8 +71,8 @@
     -moz-transform: rotate(-180deg);
     -webkit-transform: rotate(-180deg);
     transform: rotate(-180deg);
-    right: 305px;
-    top: 169px;
+    right: 600px;
+    top: 350px;
   }
 }
 /* @end */
@@ -129,9 +129,6 @@ p {
 }
 a {
   text-decoration: none;
-}
-a:hover {
-  
 }
 /* @end */
 
@@ -322,6 +319,7 @@ header h2 {
 
 /* @group tertiary row */
 .tertiary section {
+  float: left;
   width: 240px;
 }
 .tertiary section:first-child,
@@ -365,7 +363,8 @@ header h2 {
     margin-right: 0;
   }
   .tertiary section:first-child h2 {
-    color: #c90e0c;
+    color: rgb(201, 14, 12);
+    color: rgba(201, 14, 12, 0.8);
     font: 16px/17px ArvoBoldItalic, Georgia, Times, serif;
     margin-bottom: 8px;
     text-align: center;
@@ -423,6 +422,7 @@ header h2 {
     background: #f8f0e1;
     background: -moz-linear-gradient(top, #f8f0e1 0%, #eddab7 100%);
     background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f8f0e1), color-stop(100%,#eddab7));
+    float: right;
   }
   .tertiary section:last-child h2 {
     color: #d6a123;
